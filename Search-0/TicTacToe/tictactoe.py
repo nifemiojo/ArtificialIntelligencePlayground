@@ -132,7 +132,6 @@ def minimax(board):
         return None
     
     playerTurn = player(board)
-    print(playerTurn)
     if playerTurn == "X":
         # Max Player
         optimalAction = maxValue(board, -math.inf, math.inf)
